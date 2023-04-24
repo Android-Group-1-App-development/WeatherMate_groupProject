@@ -32,6 +32,20 @@ https://rapidapi.com/blog/recipe-apis/
 https://airlabs.co/docs/flights
 https://airlabs.co/Flight-Radar-24-API-FR24-API#:~:text=The%20FlightRadar24%20API%20is%20a,accurate%20and%20actionable%20aviation%20data.
 
+**OUR TOP 3 IDEAS**
+    - Plane tracker- So here we can access the data of where a desired plane is currently flying over and the time it will take for it to get to it's destination. 
+    - Recipe App- In this app we can click on the food image and it will list all the ingredients needed for the food,and it will give step by step process to make the dish.
+    - Weather App- In this app the user can have access to their current location's weather, with other weather data. 
+
+
+**FINAL SELECTION**
+    - So after our discussion we as a group have come to a conclusion of making a Weather App that displays real time weather of the user's curent location. 
+
+    
+
+
+
+
 
 
 
