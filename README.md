@@ -31,7 +31,7 @@ The following REQUIRED files are included:
 
 - [X] Included 📄 `brainstorming.md`, which contains:
   - [X] Our initial brainstorming ideas (6+ ideas)
-  - [X] 5-category evaluation of our top 3 ideas
+  - [] 5-category evaluation of our top 3 ideas
   - [X] Final app idea chosen
 - [X] Included 📄 `project_spec.md`, which contains:
   - [X] App Overview: Description and evaluation
