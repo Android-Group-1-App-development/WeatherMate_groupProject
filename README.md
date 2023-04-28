@@ -1,13 +1,13 @@
 # finalgroup1project
 <!-- (This is a comment) INSTRUCTIONS: Go through this page and fill out any **bolded** entries with their correct values.-->
 
-# AND101 Milestone 1 - **Team/App Name**
+# AND101 Milestone 1 - **Team1/WeatherMate**
 
 Submitted by:
 - **Darshan Neupane**
 - **Nischal Thapa**
 - **Prabodh KC**
-- ** Tej Sunar**
+- **Tej Sunar**
 - **Steven Flores**
 - **Golam Rabbani**
 
@@ -41,8 +41,8 @@ The following REQUIRED files are included:
 
 The following BONUS features are implemented:
 
-- [ ] Added digital wireframe/mockup image(s)
-- [ ] Added a GIF of an interactive prototype
+- [x] Added digital wireframe/mockup image(s)
+- [x] Added a GIF of an interactive prototype
 
 The following EXTRA features are implemented:
 
