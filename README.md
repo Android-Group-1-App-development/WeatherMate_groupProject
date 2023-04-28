@@ -8,8 +8,8 @@ Submitted by:
 - **Nischal Thapa**
 - **Prabodh KC**
 - ** Tej Sunar**
--**Steven Flores**
--**Golam Rabbani**
+- **Steven Flores**
+- **Golam Rabbani**
 
 Time spent: **3** hours spent in total
 
