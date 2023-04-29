@@ -33,17 +33,17 @@ The app displays the temperature, humidity,and the chance of precipitation based
 
 Required Features:
 
-- The app should show the current weather conditions based on where the users are located at, using data from a reliable weather API. The User will need to allow the app to enable GPS-tracking which will track the user's located and fetch the data from the API to show real-time data for use's location.
-- Temperature and weather condition: The app should display the current temperature and weather condition (e.g. sunny, cloudy, rainy, etc.) for the selected city.
-- Air quality: The app can display information about the air quality in the selected city, including PM2.5, PM10, and AQI readings.
-- The app can include widgets that show current weather conditions and forecast information on the user's home screen.
-- Rain Percentage, Humidity, and Time.
-- Multiple day weather forecast: The app should provide users with a five-day weather forecast for the selected city.
+- [x] The app should show the current weather conditions based on where the users are located at or the location that user searched, using data from a reliable weather API. The User will need to allow the app to enable GPS-tracking which will track the user's located and fetch the data from the API to show real-time data for use's location.
+- [x] Temperature and weather condition: The app should display the current temperature and weather condition (e.g. sunny, cloudy, rainy, etc.) for the selected city.
+- [x] The app can include widgets that show current weather conditions and forecast information on the user's home screen.
+- [x] Rain Percentage, Humidity, and Time.
+- [x] Forecast over multiple countries and 100+ cities.
 
 Stretch Features:
 
-1. - Real feel : 60°
-2.  - H:19° L:11°
+1. -[x] Real feel : 60°
+2. -[x] H:19° L:11°
+3. -[x] Themes of the app updates based in the location weather condition.
 
 ### 2. Chosen API(s)
 
