@@ -15,7 +15,7 @@ Time spent: **3** hours spent in total
 
 ## Summary
 
-This document provides an overview, project spec, and wireframes for our team's capstone project: An app that **short description of your app**
+This document provides an overview, project spec, and wireframes for our team's capstone project: An app that **give real time weather data to the users.**
 
 If we had to describe this milestone in three (3) emojis, they would be: ** 😇🤓🤩**
 
@@ -46,8 +46,5 @@ The following BONUS features are implemented:
 
 The following EXTRA features are implemented:
 
-- [ ] List anything else that you added to improve your submission!
-
-## Notes
-
-Here's a place for any other notes on this milestone!
+- [x ] List anything else that you added to improve your submission!
+- Theme updates based on the location condition. eg(rainy,cloudy,etc)
