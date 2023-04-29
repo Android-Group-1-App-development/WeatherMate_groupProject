@@ -10,7 +10,8 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".Activites.MainActivity">
+        tools:context=".Activites.MainActivity"
+        android:id="@+id/main_layout">
 
         <LinearLayout
             android:id="@+id/app_bar_layout"
@@ -172,7 +173,7 @@
                     app:cardCornerRadius="25dp">
 
                     <LinearLayout
-                        android:id="@+id/option_layout"
+                        android:id="@+id/options_layout"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:padding="10dp"
