@@ -3,6 +3,7 @@
 # AND101 Milestone 2 - **Group 1/ WeatherMate**
 
 Submitted by:
+-**Prabodh KC**
 - **Darshan Neupane**
 - **Nischal Thapa**
 - **Steven Flores**
@@ -21,19 +22,19 @@ This document provides a summary of our project building process for our app, **
 
 The following REQUIRED features are completed:
 
-- [ ] Assign features to each member of your group
-- [ ] Establish a goal time for completing each feature
+- [ x] Assign features to each member of your group
+- [ x] Establish a goal time for completing each feature
 
 The following REQUIRED files are included:
 
 - [ ] Updated 📄 `project_spec.md`, which contains:
   - [X] App Overview (Milestone 1)
   - [X] App Spec (Milestone 1)
-  - [ ] Checked off 2+ completed features
+  - [ x] Checked off 2+ completed features
   - [ ] 2+ GIFs of build progress
 
-- [ ] Our 🎥 Demo Video
-  - [ ] We have also added the Demo Video Link to the Group Info Form on the course portal.
+- [ x] Our 🎥 Demo Video
+  - [ x] We have also added the Demo Video Link to the Group Info Form on the course portal.
 
 The following EXTRA features are implemented:
 
