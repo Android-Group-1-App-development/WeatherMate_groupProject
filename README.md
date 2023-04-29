@@ -39,7 +39,7 @@ The following REQUIRED files are included:
 The following EXTRA features are implemented:
 
 - [x] List anything else that you added to improve your submission!
-- [x]Change of the theme based on the weather forecast of the location.
+- [x] Change of the theme based on the weather forecast of the location.
 - [x] Updates the image for corresponding weather situation.
 
 
