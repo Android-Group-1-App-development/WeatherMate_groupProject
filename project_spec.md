@@ -48,8 +48,8 @@ Stretch Features:
 ### 2. Chosen API(s)
 
 - **list first API endpoint here**
-  - **[Weather api](https://www.weatherapi.com/)**
-  - **[Api 2](https://open-meteo.com/)**
+  - **[Weather api]((https://openweathermap.org/api))**
+  
 
 
 ### 3. User Interaction
@@ -57,13 +57,13 @@ Stretch Features:
 Required Feature
 
 - **Location Input**
-  - => **Allows users to share their current location by  . This will enable the app to display weather data for their current area.**
+  - => **Allows users to share their current location and search a particular location . This will enable the app to display weather data for the area.**
   
 - **Weather Display**
   - => **Displays weather data for current location, such as temperature, humidity, wind speed, and rain percentage, with time. You could use icons to represent weather conditions like rain, snow, clouds, and sunshine.**
 
 - **Forescast**
-    - => **Users can access multiple hours throughout the day weather forecast for the current area. This will allow users to plan their activities in advance based on the predicted weather conditions.**
+    - => **Users can access live data throughout the day weather forecast for the current area.**
 
 ## Wireframes
 
@@ -83,6 +83,13 @@ Here's a place for any other notes on the app, it's creation
 process, or what you learned this unit!  
 
 For Milestone 2, include **2+ GIFs** of the build process here!
+
+**Here We are working on building the UI using xml**
+![Kapture 2023-04-29 at 02 21 36](https://user-images.githubusercontent.com/53006609/235287393-90b94dd0-e675-4dbc-b4c9-8b78c51d8f48.gif)
+
+ **We binded to display the data we get from the api:**
+![Kapture 2023-04-29 at 02 27 10](https://user-images.githubusercontent.com/53006609/235287567-1d0eb7eb-dcde-4ea7-acf8-c4bd6d7ccfa8.gif)
+
 
 ## License
 
