@@ -25,15 +25,7 @@ import com.example.weathermateapp.Models.WeatherModel
 import com.example.weathermateapp.R
 import com.example.weathermateapp.Utilites.ApiUtilities
 import com.example.weathermateapp.databinding.ActivityMainBinding
-import com.google.android.gms.ads.AdRequest
-import com.google.android.gms.ads.LoadAdError
-import com.google.android.gms.ads.MobileAds
-import com.google.android.gms.ads.OnUserEarnedRewardListener
-import com.google.android.gms.ads.interstitial.InterstitialAd
-import com.google.android.gms.ads.interstitial.InterstitialAdLoadCallback
-import com.google.android.gms.ads.rewarded.RewardItem
-import com.google.android.gms.ads.rewarded.RewardedAd
-import com.google.android.gms.ads.rewarded.RewardedAdLoadCallback
+
 import com.google.android.gms.location.FusedLocationProviderClient
 import com.google.android.gms.location.LocationServices
 import retrofit2.Call
@@ -56,7 +48,7 @@ class MainActivity : AppCompatActivity() {
 
     private val apiKey="3316e520ca02cbf691f661f32d0f0946"
 
-    private var mInterstitialAd: InterstitialAd?=null
+
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -65,13 +57,13 @@ class MainActivity : AppCompatActivity() {
 
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main)
 
-        MobileAds.initialize(this)
 
-        val adRequest= AdRequest.Builder().build()
 
-        binding.bannerAds.loadAd(adRequest)
 
-        loadAds()
+
+
+
+
 
         fusedLocationProvider=LocationServices.getFusedLocationProviderClient(this)
 
@@ -133,18 +125,9 @@ class MainActivity : AppCompatActivity() {
                 override fun onResponse(call: Call<WeatherModel>, response: Response<WeatherModel>) {
                     if (response.isSuccessful){
 
-                        loadAds()
-
-                        if (mInterstitialAd!=null){
-
-                            mInterstitialAd!!.show(this@MainActivity)
 
 
-                        }
-                        else{
 
-
-                        }
 
 
 
@@ -178,22 +161,6 @@ class MainActivity : AppCompatActivity() {
     }
 
 
-    private fun loadAds(){
-
-        val adRequest= AdRequest.Builder().build()
-
-        InterstitialAd.load(this,
-            "ca-app-pub-3940256099942544/1033173712",
-            adRequest,object :
-                InterstitialAdLoadCallback(){
-                override fun onAdFailedToLoad(p0: LoadAdError) {
-                    mInterstitialAd=null
-                }
-                override fun onAdLoaded(p0: InterstitialAd) {
-                    mInterstitialAd=p0
-                }
-            })
-    }
 
 
 
@@ -448,10 +415,10 @@ class MainActivity : AppCompatActivity() {
                     weatherImg.setImageResource(R.drawable.ic_storm_weather)
 
                     mainLayout.background=ContextCompat
-                        .getDrawable(this@MainActivity, R.drawable.ic_storm_weather)
+                        .getDrawable(this@MainActivity, R.drawable.snow_bg)
 
-                    option_layout.background=ContextCompat
-                        .getDrawable(this@MainActivity, R.drawable.ic_storm_weather)
+                    optionsLayout.background=ContextCompat
+                        .getDrawable(this@MainActivity, R.drawable.storm_bg)
 
 
                 }
@@ -462,10 +429,12 @@ class MainActivity : AppCompatActivity() {
                     weatherImg.setImageResource(R.drawable.ic_few_clouds)
 
                     mainLayout.background=ContextCompat
-                        .getDrawable(this@MainActivity, R.drawable.ic_few_clouds)
+                        .getDrawable(this@MainActivity, R.drawable.clouds_bg)
 
                     optionsLayout.background=ContextCompat
-                        .getDrawable(this@MainActivity, R.drawable.ic_few_clouds)
+                        .getDrawable(this@MainActivity, R.drawable.clouds_bg)
+
+
 
 
                 }
@@ -476,10 +445,10 @@ class MainActivity : AppCompatActivity() {
                     weatherImg.setImageResource(R.drawable.ic_rainy_weather)
 
                     mainLayout.background=ContextCompat
-                        .getDrawable(this@MainActivity, R.drawable.ic_rainy_weather)
+                        .getDrawable(this@MainActivity, R.drawable.rain_bg)
 
                     optionsLayout.background=ContextCompat
-                        .getDrawable(this@MainActivity, R.drawable.ic_rainy_weather)
+                        .getDrawable(this@MainActivity, R.drawable.rain_bg)
 
                 }
 
@@ -489,10 +458,10 @@ class MainActivity : AppCompatActivity() {
                     weatherImg.setImageResource(R.drawable.ic_snow_weather)
 
                     mainLayout.background=ContextCompat
-                        .getDrawable(this@MainActivity, R.drawable.ic_snow_weather)
+                        .getDrawable(this@MainActivity, R.drawable.snow_bg)
 
                     optionsLayout.background=ContextCompat
-                        .getDrawable(this@MainActivity, R.drawable.ic_snow_weather)
+                        .getDrawable(this@MainActivity, R.drawable.snow_bg)
 
                 }
 
@@ -502,11 +471,11 @@ class MainActivity : AppCompatActivity() {
                     weatherImg.setImageResource(R.drawable.ic_broken_clouds)
 
                     mainLayout.background=ContextCompat
-                        .getDrawable(this@MainActivity, R.drawable.ic_broken_clouds)
+                        .getDrawable(this@MainActivity, R.drawable.atmosphere_bg)
 
 
                     optionsLayout.background=ContextCompat
-                        .getDrawable(this@MainActivity, R.drawable.ic_broken_clouds)
+                        .getDrawable(this@MainActivity, R.drawable.atmosphere_bg)
 
                 }
 
@@ -516,10 +485,10 @@ class MainActivity : AppCompatActivity() {
                     weatherImg.setImageResource(R.drawable.ic_clear_day)
 
                     mainLayout.background=ContextCompat
-                        .getDrawable(this@MainActivity, R.drawable.ic_clear_day)
+                        .getDrawable(this@MainActivity, R.drawable.clear_backg)
 
                     optionsLayout.background=ContextCompat
-                        .getDrawable(this@MainActivity, R.drawable.ic_clear_day)
+                        .getDrawable(this@MainActivity, R.drawable.clear_backg)
 
                 }
 
@@ -529,10 +498,10 @@ class MainActivity : AppCompatActivity() {
                     weatherImg.setImageResource(R.drawable.ic_cloudy_weather)
 
                     mainLayout.background=ContextCompat
-                        .getDrawable(this@MainActivity, R.drawable.ic_cloudy_weather)
+                        .getDrawable(this@MainActivity, R.drawable.clouds_bg)
 
                     optionsLayout.background=ContextCompat
-                        .getDrawable(this@MainActivity, R.drawable.ic_clear_day)
+                        .getDrawable(this@MainActivity, R.drawable.clouds_bg)
 
                 }
 
